@@ -226,6 +226,7 @@ html {
 .menu {
   cursor: pointer;
   justify-items: flex-end;
+  margin-right:17px;
 }
 
 
@@ -678,9 +679,13 @@ li {
 
 
 @media screen and (max-width: 512px) {
-
+  .intro3{
+    height: 50vh;
+  }
   .intro3-content p{
     width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 @keyframes linkfade {
   from {
@@ -744,8 +749,9 @@ li {
     height: 3px;
     width: 25px;
     display: block;
+   
   }
-
+  
   .brand {
     height: 260vh;
     flex-direction: column;
@@ -798,7 +804,7 @@ li {
     flex-direction: column;
   }
   .block {
-    font-size: 4rem;
+    font-size: 6rem;
   }
   #main-block {
     height: 1em;
