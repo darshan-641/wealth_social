@@ -11,6 +11,7 @@
   width: 60%;
   margin: auto;
 }
+
 p{
   font-family: sans-serif;
 }
@@ -38,6 +39,9 @@ p{
   width: 25%;
   /* background-color: lightgreen; */
   border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @font-face{
@@ -783,12 +787,12 @@ li {
   }
   
   .brand {
-    height: 260vh;
+    height: 330vh;
     flex-direction: column;
   }
   .b-box {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 70px;
   }
   .contact {
     height: 160vh;
