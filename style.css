@@ -787,7 +787,7 @@ li {
   }
   
   .brand {
-    height: 280vh;
+    height: 330vh;
     flex-direction: column;
   }
   .b-box {
@@ -866,29 +866,25 @@ li {
   
 }
 @media screen and (max-width: 415px) and (max-height: 733px) {
-  .brand {
-    height: 280vh;
-  }
-  /*  */
+  /* .brand {
+    height: 300vh;
+  } */
+ 
 }
-/* @media screen and (max-width:415px) and (height:823px){
+@media screen and (width: 411px){
   .brand{
-    height: 250vh;
+    height: 300vh;
   }
-} */
+}
 @media screen and (max-width: 376px) {
-  .brand {
-    height: 270vh;
-  }
+  
   .menu div {
     height: 3px;
   }
 }
 
 @media screen and (max-width: 321px) {
-  .brand {
-    height: 280vh;
-  }
+  
   #build {
     height: 40vh;
   }
