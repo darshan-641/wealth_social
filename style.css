@@ -2,10 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
 
-  
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+}
+.test-box img{
+  width: 60%;
+  margin: auto;
 }
 p{
   font-family: sans-serif;
@@ -47,7 +51,7 @@ p{
 
 .color-gold{
   color: rgba(253, 188, 90, 1);
-  font-family: Custom;
+  /* font-family: Custom; */
 }
 .social{
  display: none;
@@ -72,7 +76,7 @@ p{
   font-size: 4rem;
   
   
-  font-family: "Custom";
+  /* font-family: "Custom"; */
 }
 .intro3-content{
   width: 100%;
@@ -84,7 +88,7 @@ p{
 
 }
 .intro3-content p{
-  font-family: "Custom1";
+  /* font-family: "Custom1"; */
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -178,12 +182,14 @@ body {
   position: relative;
   text-align: center;
   width: 100%;
-  height: 1em;
+  /* transform: translateY(-30%); */
+  height: 400px;
   overflow: hidden;
-  margin: 1rem;
+  line-height: 100%;
   color: gold;
 }
 #slider {
+  
   transition: 0.3s ease-in;
   color: rgba(253, 188, 90, 1);
 }
@@ -193,7 +199,7 @@ body {
 } */
 
 .block {
-  font-family: "Custom1";
+  /* font-family: "Custom1"; */
   font-size: 8rem;
   font-weight: 800;
 }
@@ -266,21 +272,23 @@ html {
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  font-family: "Custom1";
+  /* font-family: "Custom1"; */
   font-weight: 300;
 }
 .logo {
   z-index: 2;
-  margin-left: 10px;
+  margin-left: 20px;
   flex: 1;
-  font-size: 2rem;
+  line-height: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
   
 }
-.logo svg {
+/* .logo svg {
   width: 15%;
   margin-left: 10%;
   cursor: pointer;
-}
+} */
 .lo {
   fill: white;
 }
@@ -328,7 +336,7 @@ html {
   text-align: center;
   margin: 1rem;
   top: 5rem;
-  left: 5%;
+  /* left: 5%; */
   font-family: sans-serif;
 }
 /* New PAid advertisement */
@@ -685,6 +693,16 @@ li {
 
 
 @media screen and (max-width: 512px) {
+  .main-test h1{
+    margin-top: 4rem;
+    font-size: 3rem;
+  }
+  .test-box{
+    width: 100%;
+  }
+  .test{
+    width: 400vw;
+  }
   .intro{
     height: 78vh;
   }
@@ -809,7 +827,7 @@ li {
     font-size: 1rem;
   }
   .pinbox p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .pbox {
@@ -830,7 +848,8 @@ li {
   }
 
   .ficon img {
-    transform: translateX(0);
+    width: 90%;
+    transform: translateX(-10%);
   }
   .b-box p{
     margin-left: auto;
